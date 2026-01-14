@@ -190,7 +190,8 @@ PRODUCT_PACKAGES += \
     MiatollWifi
 
 PRODUCT_PACKAGES += \
-    MiatollAperture
+    MiatollAperture \
+    MiatollLineageSDK
 
 # Partitions
 PRODUCT_PACKAGES += \
@@ -294,7 +295,7 @@ PRODUCT_SOONG_NAMESPACES += \
     bootable/deprecated-ota \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/clover/interfaces/power-libperfmgr \
+    hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     hardware/xiaomi
 

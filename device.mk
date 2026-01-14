@@ -65,6 +65,9 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set_bool,camera,override_format_from_reserved,true)
 
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 

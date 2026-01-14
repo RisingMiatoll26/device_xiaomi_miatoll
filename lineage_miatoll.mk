@@ -25,8 +25,19 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := SM6250
 
+RISING_MAINTAINER="AbdoElbanaa"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 720G" \
+    RisingMaintainer="AbdoElbanaa"
+
+RISING_MAINTAINER := AbdoElbanaa
+
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="miatoll_global-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
     BuildFingerprint=Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
+
